@@ -1,0 +1,15 @@
+{
+  "name": "cf-scanner",
+  "outputfilename": "CloudFlareScan",
+  "author": {
+    "name": "xiaolin-007",
+    "email": ""
+  },
+  "info": {
+    "companyName": "小琳解说",
+    "productName": "CloudFlareScan",
+    "productVersion": "5.0",
+    "copyright": "Copyright © 2026 xiaolin-007",
+    "comments": ""
+  }
+}

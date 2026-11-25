@@ -1,0 +1,12 @@
+/build/bin/
+/frontend/node_modules/
+/frontend/wailsjs/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+/*.exe
+/cfs_results_*.csv
+/cfs_cm_*.txt
+.DS_Store
+Thumbs.db
