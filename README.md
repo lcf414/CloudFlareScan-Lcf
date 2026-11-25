@@ -1,4 +1,4 @@
-# CloudFlareScan V5.0
+# CloudFlareScan-Lcf V1.0
 
 本项目基于小琳解说的 CloudFlareScan V5.0 Go/Wails 桌面版。 [上游项目](https://github.com/xiaolin-007/CloudFlareScan) · [V5.0 发布页](https://github.com/xiaolin-007/CloudFlareScan/releases/tag/V5.0)
 
@@ -31,7 +31,7 @@ go build -mod=readonly -trimpath -tags 'desktop,production' -ldflags '-s -w -H w
 
 `frontend/dist` 来自官方 V5.0 Windows 发行包中的已编译界面，上游公开仓库未提供原始 Vue 工程。Go 构建会直接嵌入此目录。提交源码时需要包含整个 `frontend/dist`，构建时无需运行 npm。
 
-地区和端口菜单的主要逻辑与样式位于 `frontend/dist/assets/multiselect.js` 和 `frontend/dist/assets/multiselect.css`。V5.0 的桌面入口是 `main.go`，`CloudFlareScan.py` 是独立的 Python V4.1 入口。
+地区和端口菜单的主要逻辑与样式位于 `frontend/dist/assets/multiselect.js` 和 `frontend/dist/assets/multiselect.css`。桌面入口是 `main.go`，`CloudFlareScan.py` 是独立的 Python V4.1 入口。
 
 项目保留[原作者 MIT 许可证](LICENSE)及[内嵌 Vue 3.5.35 的许可证](licenses/Vue-3.5.35-LICENSE.txt)。
 
